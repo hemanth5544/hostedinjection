@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datopic</title>
+    <link rel="icon" href="Datopic_v2.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="injector.js"></script>
+</head>
+<body>
+    <header>
+        <img src="Datopic_v2.png" alt="Datopic Logo" id="logo">
+        <h1>Datopic Technologies</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="navigate('home')">Home</a></li>
+                <li><a href="#about" onclick="navigate('about')">About Us</a></li>
+                <li><a href="#services" onclick="navigate('services')">Services</a></li>
+                <li><a href="#contact" onclick="navigate('contact')">Contact</a></li>
+                <li><a href="#announcement" onclick="navigate('announcement')">Announcement</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section id="home" class="page">
+            <h2>Cutting-edge solutions for a global future</h2>
+            <p>Welcome to Datopic Technologies, a leading global product engineering and services company, specializing in cutting-edge technical solutions for industries such as healthcare, cybersecurity, finance, and government administration.</p>
+        </section>
+        <section id="about" class="page hidden">
+            <h2>Features</h2>
+            <ul>
+                <li>Cutting-edge technical solutions</li>
+                <li>Groundbreaking inventions and product design</li>
+                <li>Global footprint and ability to cater to global demands</li>
+                <li>Team with decades of expertise in fields such as healthcare, cybersecurity, finance, and government administration</li>
+                <li>Focus on customer satisfaction and being future-proof</li>
+            </ul>
+            <h2>Benefits</h2>
+            <p>Datopic prides itself on offering the latest and most advanced technical solutions to its customers. This allows them to stay ahead of their competitors and be at the forefront of innovation in their respective industries.</p>
+        </section>
+        <section id="services" class="page hidden">
+            <h2>Company Ideology</h2>
+            <img src="04-Sumit_Chauhan.png" alt="Company Ideology" class="ideology-image">
+            <p>We place great confidence in our company's employees as they constitute our core strength. Our organizational culture is built on principles of inclusivity and innovation. Emphasizing excellence, collaboration, and accountability, we dedicate substantial resources to training and development. Our primary focus revolves around digital transformation and innovation, while simultaneously excelling in specialized domains like blockchain and cybersecurity for the past few years. We view blockchain as a transformative technology capable of delivering secure, transparent, and decentralized solutions to revolutionize various industries. Our team is actively engaged in developing blockchain-based solutions to optimize processes and drive cost efficiencies.</p>
+            <p>Additionally, we acknowledge the critical significance of cybersecurity and work tirelessly to remain up-to-date with the latest advancements. We offer cutting-edge solutions to safeguard our clients' data and systems. Drawing upon our expertise in these areas, we are well-positioned to guide businesses of all sizes through the intricacies of digital transformation, enabling them to stay ahead in the rapidly evolving technology landscape.</p>
+        </section>
+        <section id="announcement" class="page hidden">
+            <h2>Announcement</h2>
+            <p>We are expanding!!</p>
+            <p>Datopic is proud to announce that it is expanding its footprint. It has opened another office in the North of Bharat @ Mohali, in Punjab. This signifies continuing growth. The new office will help in sourcing talent from the untouched pool of states like Punjab and Himachal. It will add new jobs in the region and will enable the company to better serve its customers globally. It will provide additional space for Datopic engineers to conduct innovative research and to create cutting-edge products and solutions for its growing customer base.</p>
+            <p>For more information, please email <a href="mailto:info@datopic.com">info@datopic.com</a></p>
+        </section>
+        <section id="contact" class="page hidden">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Datopic Technologies. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
