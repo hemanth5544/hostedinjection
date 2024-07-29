@@ -1,6 +1,6 @@
 (function() {
     const script = document.createElement('script');
-    script.src = 'https://jsfile.s3.amazonaws.com/myanalytics.js';
+    script.src = 'https://anlayticsjs.s3.ap-southeast-2.amazonaws.com/myanalytics.js';
     script.onload = function() {
         console.log('Analytics script loaded successfully:', script.src);
     };
